@@ -12,9 +12,11 @@ function ProfilePageHeader() {
     if (window.innerWidth > 991) {
       const updateScroll = () => {
         let windowScrollTop = window.pageYOffset / 3;
+        if (pageHeader.current) {
         pageHeader.current.style.transform =
           "translate3d(0," + windowScrollTop + "px,0)";
-      };
+      }
+    };
       window.addEventListener("scroll", updateScroll);
       return function cleanup() {
         window.removeEventListener("scroll", updateScroll);
@@ -51,7 +53,7 @@ function ProfilePageHeader() {
             </div>
             <div className="social-description">
               {/* <h2>48</h2> */}
-              <p>Oracle DB Product Specialist</p>
+              <p>Oracle DB Specialist</p>
             </div>
           </div>
         </Container>

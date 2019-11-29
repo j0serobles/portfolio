@@ -66,24 +66,35 @@ function ExamplesNavbar() {
             </DropdownToggle>
             <DropdownMenu aria-labelledby="navbarDropdown">
               <DropdownItem header tag="a">
-                Dropdown header
+                Page Shortcuts
               </DropdownItem>
-              <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
-                Action
+              <DropdownItem href="#about-me" onClick={ e => { e.preventDefault(); 
+                                                             document.getElementById("about-me").scrollIntoView(); 
+                                                            } 
+                                                     }>
+                About Me
               </DropdownItem>
-              <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
-                Another action
+              <DropdownItem href="#skills" onClick={ e => { e.preventDefault(); 
+                                                             document.getElementById("skills").scrollIntoView(); 
+                                                            } 
+                                                     }>
+                Skills
               </DropdownItem>
-              <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
-                Something else here
+              <DropdownItem href="#portfolio" onClick={ e => { e.preventDefault(); 
+                                                             document.getElementById("portfolio").scrollIntoView(); 
+                                                            } 
+                                                     }>
+                Portfolio
+              </DropdownItem>
+              <DropdownItem href="/resume.pdf" download="JoseRoblesResume.pdf" >
+                Download Resume
               </DropdownItem>
               <DropdownItem divider></DropdownItem>
-              <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
-                Separated link
-              </DropdownItem>
-              <DropdownItem divider></DropdownItem>
-              <DropdownItem href="#pablo" onClick={e => e.preventDefault()}>
-                One more separated link
+              <DropdownItem href="#contact-me" onClick={ e => { e.preventDefault(); 
+                                                             document.getElementById("contact-me").scrollIntoView(); 
+                                                            } 
+                                                     }>
+                Contact Me
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
