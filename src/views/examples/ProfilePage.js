@@ -113,7 +113,7 @@ function ProfilePage() {
                   Agile Software Development Methodologies (Scrum & XP)
                 </div>
                 <div className="col-sm-4">
-                  Full-Stack Web Development -- MERN Stack (MongoDB, Espress.JS, React.JS, Node.JS)
+                  Full-Stack Web Development on MERN Stack (MongoDB, Espress.JS, React.JS, Node.JS)
                 </div>
               </div>
               <div className="row justify-content-center mt-3">
