@@ -97,9 +97,9 @@ function ProfilePage() {
             </div>
             <h3 className="title" id="about-me">About me</h3>
             <h5 className="paragraph">
-            My extensive experience in the technology field has helped many customers 
-            successfully implement and manage their information systems. I have worked as a 
-            systems engineer, database developer and administrator, ERP systems consultant 
+            Professional engineer with extensive experience in the information technology field, 
+            specializing in software engineering and software development lifecycle of full-stack web applications.  
+            An Oracle Certified Professional DBA, also has experienced as a systems engineer, database architect and administrator, ERP systems consultant 
             and data integration specialist for government and private sector customers. 
             Computer technology is my passion, and I always strive to stay up to date with 
             the latest developments in the industry.
