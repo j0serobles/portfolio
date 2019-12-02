@@ -97,12 +97,7 @@ function ProfilePage() {
             </div>
             <h3 className="title" id="about-me">About me</h3>
             <h5 className="paragraph">
-            Professional engineer with extensive experience in the information technology field, 
-            specializing in software engineering and software development lifecycle of full-stack web applications.  
-            An Oracle Certified Professional DBA, also has experienced as a systems engineer, database architect and administrator, ERP systems consultant 
-            and data integration specialist for government and private sector customers. 
-            Computer technology is my passion, and I always strive to stay up to date with 
-            the latest developments in the industry.
+            Professional engineer with extensive experience in the information technology field, specializing in the software development lifecycle using agile methods.  Full-stack web application development certificate from the University of Central Florida, using the MongoDB, ExpressJS, ReactJS and NodeJS tool stack.  Also, an Oracle Certified Professional DBA, with experience as a systems engineer, database architect and administrator, ERP systems consultant and data integration specialist for government and private sector customers. Strong problem solving skills and technical know-how in computer technology can provide the software development team with the skills needed to produce software on-time, on budget and satisfying the customer’s requirements. 
             </h5>
             <h3 className="title" id="skills">Skills</h3>
               <div className="row justify-content-center">
