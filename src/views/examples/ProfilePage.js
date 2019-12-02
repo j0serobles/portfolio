@@ -299,12 +299,13 @@ function ProfilePage() {
             </Row>
             <Row>
               <Col className="col-sm-6 offset-sm-3">
+              <h4 className="title text-center" id="contact-me">Contact Me</h4>
                 <MailForm></MailForm>
               </Col>
             </Row>
           </Container>
         </div>
-        <div id="contact-me">
+        <div>
           <DefaultFooter  />
         </div>
       </div>
