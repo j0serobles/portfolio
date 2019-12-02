@@ -172,7 +172,7 @@ function ExamplesNavbar() {
                   id="github-tooltip"
                 >
                   <i className="fab fa-github"></i>
-                  <p className="d-lg-none d-xl-none">Instagram</p>
+                  <p className="d-lg-none d-xl-none">GitHub Page</p>
                 </NavLink>
                 <UncontrolledTooltip target="#github-tooltip">
                   View my projects on Github

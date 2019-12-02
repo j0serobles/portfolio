@@ -58,34 +58,34 @@ function ProfilePage() {
                 </Button>
                 </a>
               <UncontrolledTooltip delay={0} target="tooltip515203352">
-               View My Projects
+               View My Skills
               </UncontrolledTooltip>
               <a href="#portfolio">              
-                <Button
-                  className="btn-round"
-                  color="info"
-                  id="tooltip515203352"
-                  size="lg"
-                >
-                  Portfolio
-                </Button>
-                </a>
-              <UncontrolledTooltip delay={0} target="tooltip515203352">
-               View My Projects
-              </UncontrolledTooltip>
-             
-              <a href="/resume.pdf" download="JoseRoblesResume.pdf">          
                 <Button
                   className="btn-round"
                   color="info"
                   id="tooltip515203353"
                   size="lg"
                 >
+                  Portfolio
+                </Button>
+                </a>
+              <UncontrolledTooltip delay={0} target="tooltip515203353">
+               View My Portfolio of Projects
+              </UncontrolledTooltip>
+             
+              <a href="/resume.pdf" download="JoseRoblesResume.pdf">          
+                <Button
+                  className="btn-round"
+                  color="info"
+                  id="tooltip515203354"
+                  size="lg"
+                >
                   Download Resume
                 </Button>
               </a>
-              <UncontrolledTooltip delay={0} target="tooltip515203353">
-               View My Projects
+              <UncontrolledTooltip delay={0} target="tooltip515203354">
+               Click to Download Resume in *.pdf format
               </UncontrolledTooltip>
               
               <a href="#contact-me">
@@ -113,7 +113,7 @@ function ProfilePage() {
                   Agile Software Development Methodologies (Scrum & XP)
                 </div>
                 <div className="col-sm-4">
-                  Full-Stack Web Development on MERN Stack (MongoDB, Espress.JS, React.JS, Node.JS)
+                  Full-Stack Web Development on MERN Stack (MongoDB, Express.JS, React.JS, Node.JS)
                 </div>
               </div>
               <div className="row justify-content-center mt-3">
