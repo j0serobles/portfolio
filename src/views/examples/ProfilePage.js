@@ -112,6 +112,9 @@ function ProfilePage() {
                 </div>
               </div>
               <div className="row justify-content-center mt-3">
+              <div className="col-sm-4" align="center">
+                  CD/CI with GitHub, Jenkins, Docker, Ansible and Kubernetes in AWS. 
+                </div>
                 <div className="col-sm-4" align="center" >
                   Programming Languages : Java, C/C++, Javascript, PL/SQL, Unix shell scripting  (Bash, Ksh)
                 </div>
@@ -128,10 +131,7 @@ function ProfilePage() {
                     Unix/Linux Sysadmin and Application Development
                 </div>
                 <div className="col-sm-4" align="center" >
-                    Excellent verbal and written communications skills.
-                </div>
-                <div className="col-sm-4" align="center" >
-                    Fully Bilingual (English and Spanish)
+                    Excellent verbal and written communications skills (English and Spanish).
                 </div>
               </div>
             <Row>
