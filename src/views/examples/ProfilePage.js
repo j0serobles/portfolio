@@ -115,6 +115,7 @@ function ProfilePage() {
               <div className="col-sm-4" align="center">
                   CD/CI with GitHub, Jenkins, Docker, Ansible and Kubernetes in AWS. 
                 </div>
+                
                 <div className="col-sm-4" align="center" >
                   Programming Languages : Java, C/C++, Javascript, PL/SQL, Unix shell scripting  (Bash, Ksh)
                 </div>
